@@ -25,7 +25,8 @@ body {
   }
   .Navbar {
     flex-wrap: wrap;
-    justify-content: start;
+    justify-content: space-evenly;
+    margin: auto;
   }
   .nav {
     flex-wrap: wrap;
@@ -211,15 +212,20 @@ p {
   background-color: #F5B041;
   height: 9.375rem;
   display: flex;
-  justify-content: center;
+  justify-content: space-evenly;
 }
 
 .footer {
   display: flex;
   width: 100%;
-  justify-content: space-around;
+  align-items: center;
   font-family: "Arvo";
   color: white;
   opacity: 90%;
   font-weight: 300;
+  margin: auto;
+  flex-wrap: wrap;
+}
+.footer li {
+  padding: 15px;
 }
